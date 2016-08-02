@@ -11,6 +11,7 @@
 		E001A4441D4993C400B8115A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E001A4431D4993C400B8115A /* AppDelegate.m */; };
 		E001A4471D4993C400B8115A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E001A4461D4993C400B8115A /* ViewController.m */; };
 		E001A44C1D4993C400B8115A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E001A44B1D4993C400B8115A /* Assets.xcassets */; };
+		E0144E761D51598F0056C289 /* mustache.png in Resources */ = {isa = PBXBuildFile; fileRef = E0144E751D51598F0056C289 /* mustache.png */; };
 		E0F027811D4BDA7700E74421 /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F027801D4BDA7700E74421 /* HypnosisView.m */; };
 		E0F027851D4BE82800E74421 /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F027831D4BE82800E74421 /* HypnosisViewController.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 		E001A4461D4993C400B8115A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E001A44B1D4993C400B8115A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E001A4501D4993C400B8115A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0144E751D51598F0056C289 /* mustache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mustache.png; path = ../../../../Desktop/mustache.png; sourceTree = "<group>"; };
 		E0F0277F1D4BDA7700E74421 /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisView.h; sourceTree = "<group>"; };
 		E0F027801D4BDA7700E74421 /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisView.m; sourceTree = "<group>"; };
 		E0F027821D4BE82800E74421 /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisViewController.h; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				E001A4451D4993C400B8115A /* ViewController.h */,
 				E001A4461D4993C400B8115A /* ViewController.m */,
 				E001A44B1D4993C400B8115A /* Assets.xcassets */,
+				E0144E751D51598F0056C289 /* mustache.png */,
 				E001A4501D4993C400B8115A /* Info.plist */,
 				E0F0277F1D4BDA7700E74421 /* HypnosisView.h */,
 				E0F027801D4BDA7700E74421 /* HypnosisView.m */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E001A44C1D4993C400B8115A /* Assets.xcassets in Resources */,
+				E0144E761D51598F0056C289 /* mustache.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
