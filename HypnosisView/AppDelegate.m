@@ -29,8 +29,8 @@
     
     HypnosisView *firstView = [[HypnosisView alloc] initWithFrame:firstFrame];
     
-    firstView.backgroundColor = [UIColor orangeColor];
-    
+//    firstView.backgroundColor = [UIColor orangeColor];
+//    
     [self.window addSubview:firstView];
 
     // set bakground color
