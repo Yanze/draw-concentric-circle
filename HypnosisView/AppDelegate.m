@@ -25,21 +25,14 @@
     HypnosisViewController *hvc = [[HypnosisViewController alloc]init];
     self.window.rootViewController = hvc;
     
-    // draw something
-    CGRect firstFrame = CGRectMake(160, 240, 100, 150);
-    CGRect secondFrame = CGRectMake(20, 30, 50, 50);
+    CGRect firstFrame = self.window.bounds;
     
     HypnosisView *firstView = [[HypnosisView alloc] initWithFrame:firstFrame];
-    HypnosisView *secondView = [[HypnosisView alloc] initWithFrame:secondFrame];
     
-    firstView.backgroundColor = [UIColor redColor];
-    secondView.backgroundColor = [UIColor blueColor];
+    firstView.backgroundColor = [UIColor orangeColor];
     
     [self.window addSubview:firstView];
-    // add the second instance of HypnonsisView as a subview of the first instance: firstView
-    [firstView addSubview:secondView];
-    
-    
+
     // set bakground color
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

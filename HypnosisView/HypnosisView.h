@@ -10,7 +10,7 @@
 
 @interface HypnosisView : UIView
 
--(instancetype) initWithFrame:(CGRect)frame;
+//-(instancetype) initWithFrame:(CGRect)frame;
 
 
 @end
