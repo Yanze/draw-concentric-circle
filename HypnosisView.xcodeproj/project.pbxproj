@@ -10,9 +10,9 @@
 		E001A4411D4993C400B8115A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E001A4401D4993C400B8115A /* main.m */; };
 		E001A4441D4993C400B8115A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E001A4431D4993C400B8115A /* AppDelegate.m */; };
 		E001A4471D4993C400B8115A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E001A4461D4993C400B8115A /* ViewController.m */; };
-		E001A44A1D4993C400B8115A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E001A4481D4993C400B8115A /* Main.storyboard */; };
 		E001A44C1D4993C400B8115A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E001A44B1D4993C400B8115A /* Assets.xcassets */; };
-		E001A44F1D4993C400B8115A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E001A44D1D4993C400B8115A /* LaunchScreen.storyboard */; };
+		E0F027811D4BDA7700E74421 /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F027801D4BDA7700E74421 /* HypnosisView.m */; };
+		E0F027851D4BE82800E74421 /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F027831D4BE82800E74421 /* HypnosisViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,12 @@
 		E001A4431D4993C400B8115A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E001A4451D4993C400B8115A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E001A4461D4993C400B8115A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E001A4491D4993C400B8115A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E001A44B1D4993C400B8115A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E001A44E1D4993C400B8115A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E001A4501D4993C400B8115A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F0277F1D4BDA7700E74421 /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisView.h; sourceTree = "<group>"; };
+		E0F027801D4BDA7700E74421 /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisView.m; sourceTree = "<group>"; };
+		E0F027821D4BE82800E74421 /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisViewController.h; sourceTree = "<group>"; };
+		E0F027831D4BE82800E74421 /* HypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +64,12 @@
 				E001A4431D4993C400B8115A /* AppDelegate.m */,
 				E001A4451D4993C400B8115A /* ViewController.h */,
 				E001A4461D4993C400B8115A /* ViewController.m */,
-				E001A4481D4993C400B8115A /* Main.storyboard */,
 				E001A44B1D4993C400B8115A /* Assets.xcassets */,
-				E001A44D1D4993C400B8115A /* LaunchScreen.storyboard */,
 				E001A4501D4993C400B8115A /* Info.plist */,
+				E0F0277F1D4BDA7700E74421 /* HypnosisView.h */,
+				E0F027801D4BDA7700E74421 /* HypnosisView.m */,
+				E0F027821D4BE82800E74421 /* HypnosisViewController.h */,
+				E0F027831D4BE82800E74421 /* HypnosisViewController.m */,
 				E001A43F1D4993C400B8115A /* Supporting Files */,
 			);
 			path = HypnosisView;
@@ -136,9 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E001A44F1D4993C400B8115A /* LaunchScreen.storyboard in Resources */,
 				E001A44C1D4993C400B8115A /* Assets.xcassets in Resources */,
-				E001A44A1D4993C400B8115A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,31 +152,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E001A4471D4993C400B8115A /* ViewController.m in Sources */,
+				E0F027811D4BDA7700E74421 /* HypnosisView.m in Sources */,
 				E001A4441D4993C400B8115A /* AppDelegate.m in Sources */,
 				E001A4411D4993C400B8115A /* main.m in Sources */,
+				E0F027851D4BE82800E74421 /* HypnosisViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E001A4481D4993C400B8115A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E001A4491D4993C400B8115A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E001A44D1D4993C400B8115A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E001A44E1D4993C400B8115A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E001A4511D4993C400B8115A /* Debug */ = {
@@ -300,6 +285,7 @@
 				E001A4551D4993C400B8115A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
