@@ -55,7 +55,6 @@
     path.lineWidth = 10;
     //change the line color
     [self.circleColor setStroke];
-    
     // draw the line
     [path stroke];
     
@@ -63,7 +62,7 @@
 }
 
 
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     NSLog(@"%@ was touched", self);
     // Get 3 random numbers between 0 and 1
     float red = (arc4random() % 100) / 100.0;
@@ -73,15 +72,16 @@
                                            green:green
                                             blue:blue
                                            alpha:1.0];
+
     self.circleColor = randomColor;
-}
-
-
-- (void)setCircleColor:(UIColor *)circleColor
-{
-    _circleColor = circleColor;
     [self setNeedsDisplay];
 }
+
+
+//- (void)setCircleColor:(UIColor *)circleColor {
+//    self.circleColor = circleColor;
+//    [self setNeedsDisplay];
+//}
 
 
 
