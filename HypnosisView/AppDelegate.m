@@ -18,20 +18,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
+
     // set up the root view controller
     HypnosisViewController *hvc = [[HypnosisViewController alloc]init];
-    self.window.rootViewController = hvc;
+    [self.window setRootViewController:hvc];
     
-    CGRect firstFrame = self.window.bounds;
-    
-    HypnosisView *firstView = [[HypnosisView alloc] initWithFrame:firstFrame];
-    
-//    firstView.backgroundColor = [UIColor orangeColor];
-//    
-    [self.window addSubview:firstView];
 
     // set bakground color
     self.window.backgroundColor = [UIColor whiteColor];
